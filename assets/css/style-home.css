@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;700&display=swap');
+
+/*==============
+	Variables
+================*/
+
+:root {
+	/* Colors */
+	--white: #FFFFFF;
+	--white-header: #F8F8F8;
+	--dark-blue: #143774;
+	--light-blue: #1792D2;
+	--white-aside: #EBEBEB;
+	--gray-text-line: #707070;
+	--gray-nav: #717171;
+
+	/* Fonts */
+	--font-lora:'Lora', serif;
+	--font-ubuntu:'Ubuntu', sans-serif;
+
+	/* Borders */
+	--border-black: 1px solid black;
+	--border-blue: 1px solid blue;
+}
+
+/*==============
+	Layout
+================*/
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--white);
+	font-family: var(--font-ubuntu);
+	width: 100%;
+/*	max-width: 1080px;*/
+	margin: auto;
+}
+
+/*==============
+	Header
+================*/
+.header {
+	border: var(--border-black);
+	background-color: var(--white-header);
+	padding-top: 2.9rem;
+} 
+
+/* Logo */
+.logo,
+.nav-list {
+/*	border: var(--border-blue);*/
+	margin: 0 10%;
+	text-align: center;
+}
+
+.title {
+	color: var(--dark-blue);
+	font-family: var(--font-lora);
+}
+
+.logo .title {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.subtitle {
+	color: var(--light-blue);
+	font-weight: 700;
+	font-size: 0.75rem;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+}
+
+/* Nav list */
+.nav-list {
+/*	border: var(--border-blue);*/
+	list-style-type: none;
+
+	margin-top: 2.5rem;
+	margin-bottom: 3.8rem;
+}
+
+.nav-item {
+	margin-bottom: 1.125rem;
+	line-height: 1.125rem;
+	letter-spacing: 3.2px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.nav-item:nth-of-type(3) {
+	margin-bottom: 0;
+}
+
+.link {
+	text-decoration: none;
+	color: var(--gray-nav);
+}
+
+.link:hover,
+.link:focus {
+	border-bottom: 3px solid var(--gray-nav);
+	padding: 0.25rem 0;
+	color: var(--light-blue);
+}
+
+/*==============
+	Main
+================*/
+
+/*==============
+	Aside
+================*/
+
+/*==============
+	Footere
+================*/
