@@ -61,7 +61,7 @@ body {
 	text-align: center;
 }
 
-.title {
+.title-main {
 	color: var(--dark-blue);
 	font-family: var(--font-lora);
 }
@@ -121,11 +121,12 @@ body {
 }
 
 .article-main {
-	border: var(--border-black);
+/*	border: var(--border-black);*/
 }
 
 /* Image main */
 .img-main {
+
 }
 
 /* text main */
@@ -133,17 +134,34 @@ body {
 
 }
 
+.line-section {
+
+}
+
 /* general styles text */
+.line {
+
+}
+
 .img {
 	max-width: 100%;
 }
 
 .date-comments {
+	margin-top: 2.4rem;
+	margin-bottom: 0.75rem;
 
+	font-size: 0.875rem;
+	font-family: 'Segue UI', arial;
+	color: var(--gray-nav);
 }
 
 .title {
-
+	font-size: 1.5rem;
+	color: var(--dark-blue);
+	font-weight: 400;
+	font-family: var(--font-lora);
+	letter-spacing: 4.8px;
 }
 
 .paragraph {
@@ -151,7 +169,11 @@ body {
 }
 
 .continue-read {
-
+	color: var(--light-blue);
+	font-size: 0.875rem;
+	letter-spacing: 2.8px;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 /*==============
 	Aside
