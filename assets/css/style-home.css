@@ -123,27 +123,17 @@ body {
 /* Sectiion 1 */
 
 /* text main */
-.text-main {
-
-}
-
 .strong {
 	font-weight: 700;
 }
 
-.line-section {
-	margin-top: 1.875rem;
-	margin-bottom: 2.8rem;
-
-    border: none;
-    height: 1px;
-    background: black;
-    color: var(--gray-text-line);
-}				
+			
 
 /* general styles text */
 .line {
-
+	border: none;
+    height: 1px;
+    background: var(--gray-nav);
 }
 
 .img {
@@ -186,6 +176,11 @@ body {
 	color: var(--light-blue);
 }
 
+.line-section {
+	margin-top: 1.875rem;
+	margin-bottom: 2.8rem;
+}	
+
 /* Section 2 */
 
 .section-two .title {
@@ -202,6 +197,10 @@ body {
 	margin-bottom: 3.75rem;
 }
 
+.img-deco {
+	margin-top: 3.2rem;
+}
+
 /*@media (min-width: 1080px) {
 	.section .date-comments {
 		
@@ -212,6 +211,70 @@ body {
 	Aside
 ================*/
 
+/* Aside one and two */
+.aside-one,
+.aside-two {
+	border: 1.25rem solid var(--white-aside);
+	
+	padding: 0 1.875rem;
+	padding-top: 1.75rem;
+	padding-bottom: 1.875rem;
+
+	margin-bottom: 5rem;
+}
+
+/* title */
+.title-aside {
+	margin-bottom: 2.5rem;
+
+	color: var(--dark-blue);
+	font-weight: 700;
+	letter-spacing: 3.6px;
+	text-transform: uppercase;
+}
+
+.subtitle-aside {
+	margin-top: 1rem;
+
+	color: var(--dark-blue);
+	font-weight: 300;
+	font-family: var(--font-lora);
+}
+
+/* text */
+.paragraph-aside {
+	margin-top: 1.5rem;
+
+	color: var(--dark-blue);
+	font-weight: 300;
+	font-size: 0.875rem;
+}
+
+.line-aside {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 1.75rem;
+	margin-bottom: 1.5rem;
+}
+
 /*==============
-	Footere
+	Footer
 ================*/
+.footer {
+	padding: 5rem;
+	
+	color: var(--white-header);
+	background-color: var(--dark-blue);
+	text-align: center;
+	font-size: 1.125rem;
+}
+
+.title-footer {
+	font-weight: 700;
+	opacity: .54;
+}
+
+.copyright {
+	font-weight: 300;
+	opacity: .54;
+}
