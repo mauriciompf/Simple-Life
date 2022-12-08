@@ -49,10 +49,19 @@ body {
 
 .main {
 	margin: 3.75rem auto;
-	max-width: 90%;
+	max-width: 95%;
+	position: relative;
 }
 
-/* Sectiion 1 */
+@media (min-width: 915px) {
+	.main {
+		max-width: 81%;
+		margin-left: 8rem;
+		margin-right: 14.25rem;
+	}
+}
+
+/* Section 1 */
 
 /* img main */
 .img {
@@ -61,6 +70,12 @@ body {
 
 .strong {
 	font-weight: 700;
+}
+
+@media (min-width: 915px) {
+	.section-one .date-comments {
+		margin: 1.825rem 0;
+	}
 }
 
 /* general styles text */
@@ -74,9 +89,10 @@ body {
 	margin-top: 2.4rem;
 	margin-bottom: 0.75rem;
 
-	font-size: 0.8rem;
+	font-weight: 300;
+	font-size: 0.825rem;
 	font-family: 'Segue UI', arial;
-	color: var(--gray-text-line);
+	color: var(--gray-nav);
 }
 
 .title {
@@ -95,6 +111,31 @@ body {
 	font-family: var(--font-ubuntu);
 }
 
+@media (min-width: 915px) {
+	.article {
+		width: 100%;
+	}
+
+	.img-content {
+		display: inline-block;
+	}
+
+	.img {
+		display: inline;
+		clear: both;
+	}
+
+	.text-content {
+		float: right;
+		max-width: 48.84%;
+		height: 222px;
+	}
+
+	.section-one .paragraph {
+		max-width: 70.14%;
+	}
+}
+
 .continue-read {
 	font-size: 0.875rem;
 	letter-spacing: 2.8px;
@@ -109,18 +150,35 @@ body {
 .line-section {
 	margin-top: 1.875rem;
 	margin-bottom: 2.8rem;
-}	
+}
+
+@media (min-width: 915px) {
+	.line-section {
+		width: 72.14%;
+	}
+}
 
 /* Section 2 */
 
 .section-two .title {
 	display: inline-block;
-	margin-top: 1rem;
+	margin-top: 1rem; !important
 }
 
 .section-two .date-comments {
 	float: right;
 	margin-top: 1.1rem;
+}
+
+@media (min-width: 915px) {
+	
+	.section-two .title {
+		margin-top: 0;
+	}
+
+	.section-two .date-comments {
+		float: none;
+	}
 }
 
 .section-two .continue-read {
@@ -153,6 +211,23 @@ body {
 	margin-bottom: 5rem;
 }
 
+@media (min-width: 915px) {
+	.aside-one {
+		position: absolute;
+		top: 0;
+		right: 0;
+		max-width: 15em;
+		padding: 1.625rem;
+	}
+
+	.aside-two {
+		position: absolute;
+		right: 0;
+		top: 22%;
+		max-width: 15em;
+	}
+}
+
 /* title */
 .title-aside {
 	margin-bottom: 2.5rem;
@@ -161,6 +236,14 @@ body {
 	font-weight: 700;
 	letter-spacing: 3.6px;
 	text-transform: uppercase;
+}
+
+@media (min-width: 915px) {
+	.title-aside {
+		margin-bottom: 1rem;
+		width: 10rem;
+		font-size: 1.25rem;
+	}
 }
 
 .subtitle-aside {
@@ -178,6 +261,13 @@ body {
 	color: var(--dark-blue);
 	font-weight: 300;
 	font-size: 0.875rem;
+}
+
+@media (min-width: 915px) {
+	.paragraph-aside {
+		line-height: 1.4rem;
+		min-width: 10rem;
+	}
 }
 
 .line-aside {
