@@ -54,7 +54,11 @@ body {
 
 /* Sectiion 1 */
 
-/* text main */
+/* img main */
+.img {
+	max-width: 100%;
+}
+
 .strong {
 	font-weight: 700;
 }
@@ -64,46 +68,6 @@ body {
 	border: none;
     height: 1px;
     background: var(--gray-nav);
-}
-
-.img {
-	max-width: 100%;
-}
-
-@media (min-width: 615px) {
-	.img {
-		display: none;
-	}
-
-	.img-box-main {
-		max-width: 44.6em;
-		min-height: 19.25em;
-
-		background-image: url("https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/life.jpg");
-		background-repeat: no-repeat;
-		background-position: center 100%;
-	}
-
-	.img-content {
-		width: 12.375rem;
-		height: 15.125rem;
-		background-repeat: no-repeat;
-		background-position: center 100%;
-		background-size: cover;
-	}
-
-	.img-box-food {
-		background-image: url("https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/food.jpg");
-	}
-
-	.img-box-work {
-		background-image: url("https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/work.jpg")	;
-	}
-
-	.img-box-deco {
-		background-image: url("https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%202-%20A%20simple%20life/img/deco.jpg");
-		background-position: 0;
-	}
 }
 
 .date-comments {
