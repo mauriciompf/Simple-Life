@@ -24,16 +24,21 @@
 }
 
 .header {
-/*	border: var(--border-black);*/
-	background-color: var(--white-header);
 	padding-top: 2.9rem;
 	padding-bottom: 3.8rem;
+/*	border: var(--border-black);*/
+
+	background-color: var(--white-header);
+
 }
 
 @media (min-width: 915px) {
 	.header {
+		padding-right: 4.25rem;
+		padding-left: 4.25rem;
+
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		align-items: center;
 	}
 }
@@ -49,6 +54,7 @@
 @media (min-width: 915px) {
 	.logo {
 		margin: 0;
+		text-align: left;
 	}
 }
 
