@@ -171,7 +171,7 @@ body {
 }
 
 @media (min-width: 915px) {
-	
+
 	.section-two .title {
 		margin-top: 0;
 	}
@@ -183,10 +183,6 @@ body {
 
 .section-two .continue-read {
 	margin-bottom: 3.75rem;
-}
-
-.img-deco {
-	margin-top: 3.2rem;
 }
 
 /*@media (min-width: 1080px) {
@@ -202,13 +198,15 @@ body {
 /* Aside one and two */
 .aside-one,
 .aside-two {
-	border: 1.25rem solid var(--white-aside);
-	
+	margin-top: 3.2rem;
+	margin-bottom: 5rem;
 	padding: 0 1.875rem;
 	padding-top: 1.75rem;
 	padding-bottom: 1.875rem;
+	
+	
+	border: 1.25rem solid var(--white-aside);
 
-	margin-bottom: 5rem;
 }
 
 @media (min-width: 915px) {
