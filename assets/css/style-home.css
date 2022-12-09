@@ -127,8 +127,7 @@ body {
 
 	.text-content {
 		float: right;
-		max-width: 48.84%;
-		height: 222px;
+		max-width: 77.84%;
 	}
 
 	.section-one .paragraph {
@@ -178,18 +177,22 @@ body {
 
 	.section-two .date-comments {
 		float: none;
+		margin-top: 0.68rem;
+		margin-bottom: 3.75rem;
+	}
+
+	.section-two .paragraph {
+		max-width: 61%;
+	}
+
+	.section-two .article-three .paragraph {
+		padding: 1.2rem 0;
 	}
 }
 
 .section-two .continue-read {
 	margin-bottom: 3.75rem;
 }
-
-/*@media (min-width: 1080px) {
-	.section .date-comments {
-		
-	}
-}*/
 
 /*==============
 	Aside
@@ -212,7 +215,7 @@ body {
 @media (min-width: 915px) {
 	.aside-one {
 		position: absolute;
-		top: 0;
+		top: -3%;
 		right: 0;
 		max-width: 15em;
 		padding: 1.625rem;
