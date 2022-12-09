@@ -1,52 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;700&display=swap');
-
-/*==============
-	Variables
-================*/
-
-:root {
-	/* Colors */
-	--white: #FFFFFF;
-	--white-header: #F8F8F8;
-	--dark-blue: #143774;
-	--light-blue: #1792D2;
-	--white-aside: #EBEBEB;
-	--gray-text-line: #707070;
-	--gray-nav: #717171;
-
-	/* Fonts */
-	--font-lora:'Lora', serif;
-	--font-ubuntu:'Ubuntu', sans-serif;
-
-	/* Borders */
-	--border-black: 1px solid black;
-	--border-blue: 1px solid blue;
-}
-
-/*==============
-	Layout
-================*/
-
-*,
-*::after,
-*::before {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-body {
-	background-color: var(--white);
-	font-family: var(--font-ubuntu);
-	width: 100%;
-/*	max-width: 1080px;*/
-	margin: auto;
-}
-
-/*==============
-	Main
-================*/
-
 .main {
 	margin: 3.75rem auto;
 	max-width: 95%;
@@ -169,6 +120,10 @@ body {
 	margin-top: 1.1rem;
 }
 
+.section-two .continue-read {
+	margin-bottom: 3.75rem;
+}
+
 @media (min-width: 915px) {
 
 	.section-two .title {
@@ -190,90 +145,18 @@ body {
 	}
 }
 
-.section-two .continue-read {
-	margin-bottom: 3.75rem;
+/* about me page */
+.title-about-me {
+	margin-top: 2.75rem;
 }
 
-/*==============
-	Aside
-================*/
-
-/* Aside one and two */
-.aside-one,
-.aside-two {
-	margin-top: 3.2rem;
-	margin-bottom: 5rem;
-	padding: 0 1.875rem;
-	padding-top: 1.75rem;
-	padding-bottom: 1.875rem;
-	
-	
-	border: 1.25rem solid var(--white-aside);
-
-}
-
-@media (min-width: 915px) {
-	.aside-one {
-		position: absolute;
-		top: -3%;
-		right: 0;
-		max-width: 15em;
-		padding: 1.625rem;
-	}
-
-	.aside-two {
-		position: absolute;
-		right: 0;
-		top: 22%;
-		max-width: 15em;
-	}
-}
-
-/* title */
-.title-aside {
-	margin-bottom: 2.5rem;
-
-	color: var(--dark-blue);
-	font-weight: 700;
-	letter-spacing: 3.6px;
-	text-transform: uppercase;
-}
-
-@media (min-width: 915px) {
-	.title-aside {
-		margin-bottom: 1rem;
-		width: 10rem;
-		font-size: 1.25rem;
-	}
-}
-
-.subtitle-aside {
-	margin-top: 1rem;
-
-	color: var(--dark-blue);
+.title-two {
+	color: var(--light-blue);
 	font-weight: 300;
+	font-size: 1.3rem;
 	font-family: var(--font-lora);
 }
 
-/* text */
-.paragraph-aside {
-	margin-top: 1.5rem;
-
-	color: var(--dark-blue);
-	font-weight: 300;
-	font-size: 0.875rem;
-}
-
-@media (min-width: 915px) {
-	.paragraph-aside {
-		line-height: 1.4rem;
-		min-width: 10rem;
-	}
-}
-
-.line-aside {
-	width: 95%;
-	margin: 0 auto;
-	margin-top: 1.75rem;
-	margin-bottom: 1.5rem;
+.paragraph-about-me {
+	padding: 0;
 }
