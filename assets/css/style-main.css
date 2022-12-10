@@ -1,0 +1,182 @@
+.main {
+	margin: 3.75rem auto;
+	max-width: 95%;
+	position: relative;
+}
+
+@media (min-width: 915px) {
+	.main {
+		max-width: 81%;
+		margin-left: 8rem;
+		margin-right: 14.25rem;
+	}
+}
+
+/* Section 1 */
+
+/* img main */
+.img {
+	max-width: 100%;
+}
+
+.strong {
+	font-weight: 700;
+}
+
+@media (min-width: 915px) {
+	.section-one .date-comments {
+		margin: 1.825rem 0;
+	}
+}
+
+/* general styles text */
+.line {
+	border: none;
+    height: 1px;
+    background: var(--gray-nav);
+}
+
+.date-comments {
+	margin-top: 2.4rem;
+	margin-bottom: 0.75rem;
+
+	font-weight: 300;
+	font-size: 0.825rem;
+	font-family: 'Segue UI', arial;
+	color: var(--gray-nav);
+}
+
+.title {
+	font-size: 1.5rem;
+	color: var(--dark-blue);
+	font-weight: 400;
+	font-family: var(--font-lora);
+}
+
+.paragraph {
+	padding: 1.875rem 0;
+	line-height: 2rem;
+
+	font-size: 1.125rem;
+	color: var(--gray-text-line);
+	font-family: var(--font-ubuntu);
+}
+
+@media (min-width: 915px) {
+	.img-content {
+		display: inline-block;
+	}
+
+	.img {
+		display: inline;
+		clear: both;
+	}
+
+	.section-one .paragraph {
+		max-width: 70.14%;
+	}
+
+	/* text content home page */
+	.text-content-home {
+		float: right;
+		max-width: 77.84%;
+	}
+}
+
+.continue-read {
+	font-size: 0.875rem;
+	letter-spacing: 2.8px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.continue-read .link {
+	color: var(--light-blue);
+}
+
+.line-section {
+	margin-top: 1.875rem;
+	margin-bottom: 2.8rem;
+}
+
+@media (min-width: 915px) {
+	.line-section {
+		width: 72.14%;
+	}
+
+	/* line recent posts */
+	.line-section-recent-posts {
+		display: none;
+	}
+}
+
+/* Section 2 */
+.section-two .title {
+	display: inline-block;
+	margin-top: 1rem; 
+}
+
+.section-two .date-comments {
+	float: right;
+	margin-top: 1.1rem;
+}
+
+.section-two .continue-read {
+	margin-bottom: 3.75rem;
+}
+
+@media (min-width: 915px) {
+	.section-two .title {
+		margin-top: 0;
+	}
+
+	.section-two .date-comments {
+		float: none;
+		margin-top: 0.68rem;
+		margin-bottom: 3.75rem;
+	}
+
+	.section-two .paragraph {
+		max-width: 61%;
+	}
+
+	/* last date comments */
+	.section-two .date-comments-last{
+		margin-bottom: 0;
+	}
+
+	/* last article paragraph */
+	.section-two .article-three .paragraph {
+		padding: 1.2rem 0;
+	}
+}
+
+/* about me page */
+.title-about-me {
+	margin-top: 2.75rem;
+	margin-bottom: 1rem;
+}
+
+.title-two {
+	color: var(--light-blue);
+	font-weight: 300;
+	font-size: 1.3rem;
+	font-family: var(--font-lora);
+	margin: 1rem 0;
+}
+
+.paragraph-about-me {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+@media (min-width: 915px) {
+	.text-content-about-me {
+		max-width: 71.8%;
+	} 
+
+	.paragraph-about-me {
+		margin: 1.875rem 0;
+	}
+}
