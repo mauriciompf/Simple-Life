@@ -27,6 +27,21 @@
 		top: 22%;
 		max-width: 15em;
 	}
+
+	/* aside about me */
+	.aside-about-me {
+		top: 0;		
+		margin: 0;
+	}
+
+	/* aside recent posts */
+	.aside-recents-posts-one {
+		top: -5.5%;
+	}
+
+	.aside-recents-posts-two {
+		top: 27%;
+	}
 }
 
 /* title */
