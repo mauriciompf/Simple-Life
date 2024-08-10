@@ -57,14 +57,13 @@
 .paragraph {
   padding: 1.875rem 0;
   line-height: 2rem;
-  /* padding-right: 0; */
 
   font-size: 1.125rem;
   color: var(--gray-text-line);
   font-family: var(--font-ubuntu);
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (min-width: 915px) {
   .date-comments {
     margin-top: 1.4rem;
   }

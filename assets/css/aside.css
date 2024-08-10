@@ -3,36 +3,28 @@
   top: 1rem;
   display: grid;
   gap: 3.5rem;
+  margin: 4rem auto;
+  height: min-content;
 }
 
 /* Aside one and two */
 .aside-one,
 .aside-two {
   position: relative;
-  margin-top: 3.2rem;
-  margin-bottom: 5rem;
-  width: 80%;
-  margin-inline: auto;
-  height: min-content;
 
   img {
     width: 100%;
   }
 }
 
-@media (min-width: 915px) {
+@media (min-width: 1030px) {
+  .aside-wrapper {
+    margin: 0;
+  }
+
   .aside-one,
   .aside-two {
     margin: 0;
-    width: auto;
-  }
-
-  .aside-one {
-    max-width: 15rem;
-  }
-
-  .aside-two {
-    max-width: 15rem;
   }
 
   /* aside about me */
